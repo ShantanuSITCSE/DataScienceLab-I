@@ -1,0 +1,20 @@
+#vector
+a<-c(1,2,3,4,5,6) #numeric Vector
+b<-c("d","a","t","a")#Character Vector
+c<-c(T,F,F,F)       #Boolean Vector
+d<-c(6L,5L,3L) #Integer Vector
+#list
+a<-list(1,2,3,4,5,6)
+b<-list(1,"b",T,6L)
+#Array
+a<-array(c(1,2,3,4,5,6,7,8),dim=c(2,4,1)
+#Matrices
+a<-matrix(c(1,2,3,4,5,6,7,8),nrow=2,ncol=4,Byrow=True)
+#Data Frame
+d<-data.frame(name="shantanu","aditya",class="III","III")
+#Factor
+f<-c(1,2,3,4,5,6)
+ff<-as.factor(f)
+factor(nlevels,ff)
+
+
